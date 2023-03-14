@@ -77,7 +77,7 @@
 
 ### 3.7 悔棋
 
-<img src="/Users/dzy/Library/Application Support/typora-user-images/image-20200901181018015.png" alt="image-20200901181018015" style="zoom:50%;" />
+<img src="https://dzy-typora-img-hosting-service.oss-cn-shanghai.aliyuncs.com/typoraImgs/image-20200901181018015.png" alt="image-20200901181018015" style="zoom:50%;" />
 
 ## 4 核心代码
 
