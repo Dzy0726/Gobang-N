@@ -30,17 +30,17 @@
 
 ### 3.1 初始界面
 
-<img src="/Users/dzy/Library/Application Support/typora-user-images/image-20200901175002492.png" alt="image-20200901175002492" style="zoom:50%;" />
+<img src="https://dzy-typora-img-hosting-service.oss-cn-shanghai.aliyuncs.com/typoraImgs/image-20200901175002492.png" alt="image-20200901175002492" style="zoom:50%;" />
 
 ### 调整棋盘大小
 
-<img src="/Users/dzy/Library/Application Support/typora-user-images/image-20200901175516537.png" alt="image-20200901175516537" style="zoom:50%;" />
+<img src="https://dzy-typora-img-hosting-service.oss-cn-shanghai.aliyuncs.com/typoraImgs/web-2.png" alt="image-20200901175516537" style="zoom:50%;" />
 
 ### 3.2 调整胜利条件
 
 可以玩1~6子棋
 
-<img src="/Users/dzy/Library/Application Support/typora-user-images/image-20200901175604020.png" alt="image-20200901175604020" style="zoom:50%;" />
+<img src="https://dzy-typora-img-hosting-service.oss-cn-shanghai.aliyuncs.com/typoraImgs/web-3.png" alt="image-20200901175604020" style="zoom:50%;" />
 
 ### 3.3 调整AI参数
 
@@ -49,31 +49,31 @@
 - 时间限制：0.1s-10s
 - 是否允许禁手
 
-<img src="/Users/dzy/Library/Application Support/typora-user-images/image-20200901175734822.png" alt="image-20200901175734822" style="zoom:50%;" />
+<img src="https://dzy-typora-img-hosting-service.oss-cn-shanghai.aliyuncs.com/typoraImgs/web-4.png" alt="image-20200901175734822" style="zoom:50%;" />
 
 ### 3.4 切换调试模式（人人对战）
 
-<img src="/Users/dzy/Library/Application Support/typora-user-images/image-20200901180058906.png" alt="image-20200901180058906" style="zoom:50%;" />
+<img src="https://dzy-typora-img-hosting-service.oss-cn-shanghai.aliyuncs.com/typoraImgs/web-5.png" alt="image-20200901180058906" style="zoom:50%;" />
 
 ### 3.5 提示信息
 
 每步棋标有序号，提示信息栏中有AI估值、思考时间、递归深度等信息。
 
-<img src="/Users/dzy/Library/Application Support/typora-user-images/image-20200901180210657.png" alt="image-20200901180210657" style="zoom:50%;" />
+<img src="https://dzy-typora-img-hosting-service.oss-cn-shanghai.aliyuncs.com/typoraImgs/image-20200901180210657.png" alt="image-20200901180210657" style="zoom:50%;" />
 
 ### 3.6 胜负判断
 
-<img src="/Users/dzy/Library/Application Support/typora-user-images/image-20200901180357729.png" alt="image-20200901180357729" style="zoom:50%;" />
+<img src="https://dzy-typora-img-hosting-service.oss-cn-shanghai.aliyuncs.com/typoraImgs/image-20200901180357729.png" alt="image-20200901180357729" style="zoom:50%;" />
 
-<img src="/Users/dzy/Library/Application Support/typora-user-images/image-20200901180923256.png" alt="image-20200901180923256" style="zoom:50%;" />
+<img src="https://dzy-typora-img-hosting-service.oss-cn-shanghai.aliyuncs.com/typoraImgs/image-20200901180923256.png" alt="image-20200901180923256" style="zoom:50%;" />
 
-<img src="/Users/dzy/Library/Application Support/typora-user-images/image-20200901180633605.png" alt="image-20200901180633605" style="zoom:50%;" />
+<img src="https://dzy-typora-img-hosting-service.oss-cn-shanghai.aliyuncs.com/typoraImgs/image-20200901180633605.png" alt="image-20200901180633605" style="zoom:50%;" />
 
-<img src="/Users/dzy/Library/Application Support/typora-user-images/image-20200901180845569.png" alt="image-20200901180845569" style="zoom:50%;" />
+<img src="https://dzy-typora-img-hosting-service.oss-cn-shanghai.aliyuncs.com/typoraImgs/image-20200901180845569.png" alt="image-20200901180845569" style="zoom:50%;" />
 
-<img src="/Users/dzy/Library/Application Support/typora-user-images/image-20200901180755029.png" alt="image-20200901180755029" style="zoom:50%;" />
+<img src="https://dzy-typora-img-hosting-service.oss-cn-shanghai.aliyuncs.com/typoraImgs/image-20200901180755029.png" alt="image-20200901180755029" style="zoom:50%;" />
 
-<img src="/Users/dzy/Library/Application Support/typora-user-images/image-20200901180827240.png" alt="image-20200901180827240" style="zoom:50%;" />
+<img src="https://dzy-typora-img-hosting-service.oss-cn-shanghai.aliyuncs.com/typoraImgs/image-20200901180827240.png" alt="image-20200901180827240" style="zoom:50%;" />
 
 ### 3.7 悔棋
 
