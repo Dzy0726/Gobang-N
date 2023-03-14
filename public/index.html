@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+  <meta charset="utf-8">
+  <title>GOBANG</title>
+  <link rel="stylesheet" href="./css/my.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<script type="text/javascript" src="./js/gobang.min.js"></script></head>
+
+<body onselectstart="return false">
+  <div id='app'>
+    <h1 id='app-title'>GoBang<b id='title-value'>N-五?</b>棋</h1>
+    <canvas id='app-canvas'></canvas>
+    <input type="button" id="btn-ai-frist" value="AI先手" class = button style="position:relative;right:350px">
+    <div id="board-info" class="app-block" style="position:relative;left:300px;bottom:500px">请点击棋盘</div>
+    <!-- <p id="app-grap"></p> -->
+    <div id="app-setting" class="app-block1" style="position:relative;left:300px;bottom:480px">
+      <ul>
+        <li style="position:relative;right: 40px;font-size:22px">
+          <span>棋盘大小:<b style="color:red;" id="board-size-value">15</b>格</span>
+          <input type="range" id="board-size" min=3 max=19 value=15 style="color:red">
+        </li>
+        <li style="position:relative;left: 10px;font-size:22px">
+          <span>胜利条件:<b style="color:red;" id="board-nwin-value">5</b>子连珠</span>
+          <input type="range" id="board-nwin" min=1 max=6 value=5>
+        </li>
+        <li style="position:relative;right: 60px;font-size:22px">
+          <span>递归深度:<b style="color:red;" id="board-depth-value">10</b>层</span>
+          <input type="range" id="board-depth" min=2 max=12 value=10>
+        </li>
+        <lili style="position:relative;right: 13px;font-size:22px">
+          <span>搜索广度:<b style="color:red;" id="board-breadth-value">6</b>个</span>
+          <input type="range" id="board-breadth" min=2 max=24 value=6>
+        </li>
+        <li style="position:relative;right: 115px;font-size:22px">
+          <span>时间限制:<b style="color:red;" id="board-timelimit-value">0.5</b>秒</span>
+          <input type="range" id="board-timelimit" min=1 max=100 value=5>
+          <input type="checkbox" id="checkbox-board-foul" checked='true' style="font-size:20px;position:relative;left:40px"><span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp禁手</span>
+        </li>
+      </ul>
+       <input type="button" id="btn-board-undo" value="悔棋" class="button" style="position:relative;bottom:15px;right:70px">
+       <input type="button" id="btn-board-default" value="恢复默认" class="button" style="position:relative;bottom: 15px;right:20px">
+       <input type="button" id="btn-board-debug" value="调试模式" class="button" style="position:relative;bottom:15px;left:40px">
+       <input type="button" id="btn-board-restart" value="重新开始" class="button" style="position:relative;bottom:15px;left:80px" onclick="javascript:location.reload()">
+
+    </div>
+
+  </div>
+
+  
+
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+{
+  "name": "gobang",
+  "version": "1.0.0",
+  "description": "web五子棋",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "run": "node index.js",
+    "test": "webpack && node index.js"
+  },
+  "keywords": [
+    "gobang",
+    "es6"
+  ],
+  "author": "DongZhenyu",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "copy-webpack-plugin": "^4.6.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-json": "^1.4.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.39.1",
+    "worker-loader": "^2.0.0"
+  },
+  "dependencies": {}
+}

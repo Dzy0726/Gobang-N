@@ -1,0 +1,116 @@
+div#app {
+    text-align: center;
+    margin-bottom: 10px;
+    overflow: hidden;
+    left: 20%;
+    right: 20%;
+}
+
+#app select{
+    display: inline;
+    cursor:pointer;
+}
+
+#app h1{
+    display: block;
+    cursor:default;
+}
+
+div#app canvas#app-canvas{
+    border: 2px gray double;
+    background-color: rgb(205, 155, 29);
+    cursor:pointer;
+    margin: 14px auto 28px;
+    position: relative;
+    right:350px;
+    z-index: 999;
+}
+
+div#app div#app-setting{
+    margin:12px 350px;
+    overflow: hidden;
+}
+
+
+div#app #board-info{
+    display: block;
+    background-color: white;
+    font-size: 22px;
+    text-align: center;
+    color: black;
+    overflow: hidden;
+    margin:12px auto;
+    text-anchor:middle;
+}
+
+li{
+    display: inline-block;
+}
+
+div#app #app-grap{
+    display: block;
+    border: 1px gray solid;
+    background-color: #e2e2e2;
+    margin: 12px auto;
+}
+
+div#app #btn-ai-frist{
+    display: block;
+    font-size: 24px;
+    color: white;
+    background-color : darkgray;
+    margin: 2px auto 30px;
+}
+
+div#app #btn-ai-frist:hover{
+    font-size: 26px;
+    margin: 0px auto 28px;
+}
+
+div#app input[type=button]{
+    display: inline-block;
+    cursor:pointer;
+}
+
+.app-block1::before, .app-block1::after{
+    content: "游戏设置";
+    display: block;
+    font-size: 28px;
+    color: white;
+    background-color : #A2B5CD;
+    margin: 2px auto;
+    text-align: center;
+}
+.app-block::before, .app-block::after{
+    content: "提示信息";
+    display: block;
+    font-size: 28px;
+    color: white;
+    background-color : #A2B5CD;
+    margin: 2px 350px;
+    text-align: center;
+}
+
+
+.button {
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;   
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #A2B5CD;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
